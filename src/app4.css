@@ -1,0 +1,20 @@
+@keyframes change {
+  0% {
+    background: pink;
+  }
+  100% {
+    background: lightyellow;
+  }
+}
+
+#app4 .circle {
+  width: 20vw;
+  height: 20vw;
+  margin-top: 3vw;
+  margin-left: 8vw;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+#app4 .circle.shade {
+  animation: change 1s infinite alternate linear;
+}

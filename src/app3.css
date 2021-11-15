@@ -1,0 +1,11 @@
+#app3 .square {
+  border: 1px solid gray;
+  height: 10vh;
+  width: 6vw;
+  margin-top: 8vw;
+  margin-left: 6vw;
+  transition: all 1s;
+}
+#app3 .square.move {
+  transform: translateX(10vw);
+}
